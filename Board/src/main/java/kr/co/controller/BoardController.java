@@ -56,7 +56,7 @@ public class BoardController {
 		
 		model.addAttribute("read",service.read(boardVO.getBno()));
 		
-		return "board/readView";
+		return "board/readView"; 
 		
 		
 	}
